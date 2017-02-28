@@ -1,0 +1,15 @@
+{
+  "name": "bertiewright",
+  "version": "1.0.0",
+  "description": "bertiewright.co.uk",
+  "main": "index.js",
+  "repository": "www.github.com/littlemooon/bertiewright",
+  "author": "fredwright0@gmail.com (littlemooon)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --harmony-async-await index"
+  },
+  "dependencies": {
+    "micro": "latest"
+  }
+}
