@@ -7,9 +7,16 @@
   "author": "fredwright0@gmail.com (littlemooon)",
   "license": "MIT",
   "scripts": {
-    "start": "node --harmony-async-await index"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "micro": "latest"
+    "micro": "latest",
+    "next": "^1.2.3",
+    "prettier": "^0.20.0"
+  },
+  "engines": {
+    "node": "7.6.0"
   }
 }

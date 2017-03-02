@@ -1,0 +1,6 @@
+export { default as Background } from './Background'
+export { default as Content } from './Content'
+export { default as Head } from './Head'
+export { default as Nav } from './Nav'
+export { default as Page } from './Page'
+export { default as Title } from './Title'
