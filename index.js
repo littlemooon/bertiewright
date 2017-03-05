@@ -5,4 +5,4 @@ const server = micro(async (req, res) => {
   res.end('woot')
 })
 
-server.listen(3000)
+server.listen(4444)

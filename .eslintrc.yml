@@ -1,0 +1,16 @@
+
+parser: babel-eslint
+
+env:
+  browser: true
+
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
+  ecmaFeatures:
+    blockBindings: true
+    jsx: true
+
+extends:
+  - standard
+  - standard-react

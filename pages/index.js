@@ -1,10 +1,14 @@
 import React from 'react'
-import css from 'next/css'
 
-import { Page } from '../layout'
+import { Head, Title, Content, Footer, About, Media, Contact } from '../layout'
 
 export default () => (
-  <Page>
-    <h1>{'My contentntntnttn'}</h1>
-  </Page>
+  <div>
+    <Head />
+    <Title />
+    <Content><About /></Content>
+    <Content><Media /></Content>
+    <Content><Contact /></Content>
+    <Footer />
+  </div>
 )

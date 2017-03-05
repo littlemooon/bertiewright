@@ -3,20 +3,31 @@
   "version": "1.0.0",
   "description": "bertiewright.co.uk",
   "main": "index.js",
-  "repository": "www.github.com/littlemooon/bertiewright",
+  "repository": "github.com/littlemooon/bertiewright",
   "author": "fredwright0@gmail.com (littlemooon)",
-  "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 4444",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 4444",
+    "lint": "eslint ."
   },
   "dependencies": {
     "micro": "latest",
     "next": "^1.2.3",
-    "prettier": "^0.20.0"
+    "react-media": "^1.5.1",
+    "react-youtube": "^7.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^7.0.0",
+    "eslint-config-standard-react": "^4.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-standard": "^2.1.1"
   },
   "engines": {
     "node": "7.6.0"
-  }
+  },
+  "license": "MIT"
 }
