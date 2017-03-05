@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import v from '../utils/style-vars'
+import v from '../utils/styles'
 
 const PageHead = () => (
   <Head>

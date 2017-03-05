@@ -1,6 +1,6 @@
 import React from 'react'
 import css from 'next/css'
-import v from '../utils/style-vars'
+import v from '../utils/styles'
 
 const Nav = () => (
   <ul className={style.ul}>
@@ -24,7 +24,8 @@ const style = {
     textAlign: 'center',
     cursor: 'pointer',
     ':hover': {
-      background: 'rgba(255, 255, 255, .2)'
+      // background: 'rgba(255, 255, 255, .2)'
+      color: v.color.secondary
     }
   })
 }

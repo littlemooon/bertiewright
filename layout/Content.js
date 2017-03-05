@@ -1,6 +1,6 @@
-import React, { PropTypes } from 'react'
+import React, { PropTypes, PureComponent } from 'react'
 import css from 'next/css'
-import v from '../utils/style-vars'
+import v from '../utils/styles'
 
 const Content = ({children}) => (
   <div className={style.container}>
@@ -16,12 +16,18 @@ Content.propTypes = {
 
 const style = {
   container: css({
-    padding: `10rem 5% 0`,
+    padding: `${v.padding.content} 5% 0`,
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    background: v.color.background
+    background: v.color.background,
+    ':first-child': {
+      background: 'red'
+    },
+    ':last-child': {
+      background: 'blue'
+    }
   }),
   inner: css({
     maxWidth: '30rem'

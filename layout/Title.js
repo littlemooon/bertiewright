@@ -1,6 +1,6 @@
 import React from 'react'
 import css from 'next/css'
-import v from '../utils/style-vars'
+import v from '../utils/styles'
 
 import Nav from './Nav'
 
@@ -52,11 +52,12 @@ const style = {
     // }),
   }),
   title: css({
-    background: 'green',
-    padding: '1rem 2rem'
+    padding: '1rem 2rem',
+    background: v.color.secondary
   }),
   h1: css({
     fontFamily: v.font.default,
+    color: v.color.title,
     fontSize: '8rem',
     lineHeight: '8rem',
     margin: '0'
