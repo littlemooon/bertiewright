@@ -1,7 +1,8 @@
 export default {
   color: {
-    background: '#1B1519',
-    title: '#ECEF72',
+    background: '#141E30',
+    // title: '#ECEF72',
+    title: '#FCFCFC',
     primary: '#FCFCFC',
     secondary: '#53A8C7'
   },

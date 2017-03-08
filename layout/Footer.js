@@ -23,7 +23,7 @@ const style = {
   img: css({
     width: '100%',
     height: 'calc(100vw * 720 / 1280)',
-    maskImage: '-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,.5)))'
+    maskImage: '-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,.7)))'
   }),
   inner: css({
     position: 'absolute',

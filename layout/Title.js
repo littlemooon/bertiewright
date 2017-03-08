@@ -28,7 +28,7 @@ const style = {
     top: '0',
     left: '0',
     zIndex: '-1',
-    opacity: '.2'
+    opacity: '.4'
     // @media screen and (max-width: 1024px) css({ /* Specific to this particular image */
     //   left: 50%;
     //   margin-left: -512px;  /* 50% */

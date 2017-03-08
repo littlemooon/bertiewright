@@ -24,8 +24,7 @@ const style = {
     textAlign: 'center',
     cursor: 'pointer',
     ':hover': {
-      // background: 'rgba(255, 255, 255, .2)'
-      color: v.color.secondary
+      background: 'rgba(255, 255, 255, .2)'
     }
   })
 }
