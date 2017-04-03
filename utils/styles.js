@@ -7,7 +7,7 @@ export default {
     secondary: '#53A8C7'
   },
   font: {
-    default: 'menlo',
+    default: 'arial',
     header: 'arial'
   },
   padding: {

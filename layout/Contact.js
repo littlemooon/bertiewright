@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react'
-
 import { Input, Button } from '../components'
 
 export default class Contact extends PureComponent {

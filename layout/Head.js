@@ -16,6 +16,8 @@ const PageHead = () => (
 
     <meta name='keywords' content='folk melodeon indie modern english independent traditional accordion' />
 
+    <link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css' />
+
     <style>{`
       html {
         font-size: 100%;
@@ -24,12 +26,12 @@ const PageHead = () => (
         -ms-text-size-adjust: 100%;
       }
       body {
+        font-family: ${v.font.default};
         background: ${v.color.background};
         color: ${v.color.primary};
         -webkit-font-smoothing: antialiased;
         -webkit-text-size-adjust: 100%;
         overflow-x: hidden;
-        font-family: ${v.font.default};
         padding: 0;
         font-size: 1.4rem;
         line-height: 2rem;

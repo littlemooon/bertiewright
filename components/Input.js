@@ -1,19 +1,32 @@
 import React, { PropTypes } from 'react'
-import css from 'next/css'
 
 const Input = ({type, label, value, onChange}) => (
   <div>
-    <p className={style.label}>{label}</p>
+    <p>{label}</p>
     {type === 'textarea' ? (
-      <textarea
-        value={value}
-        onChange={onChange}
-        type={type}
-        {...css(style.input, style.textarea)}
-      />
+      <textarea value={value} onChange={onChange} type={type}/>
     ) : (
-      <input value={value} onChange={onChange} type={type} className={style.input} />
+      <input value={value} onChange={onChange} type={type} />
     )}
+    <style jsx>{`
+      p {
+        margin: 1rem 0 0;
+      }
+      input, textarea {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid white;
+        height: 2rem;
+        background: transparent;
+        color: white;
+        font-size: 14px;
+      }
+      textarea {
+        height: 8rem;
+        white-space: normal;
+        resize: none;
+      }
+    `}</style>
   </div>
 )
 
@@ -26,26 +39,6 @@ Input.propTypes = {
 
 Input.defaultProps = {
   type: 'text'
-}
-
-const style = {
-  label: css({
-    margin: '1rem 0 0'
-  }),
-  input: css({
-    width: '100%',
-    padding: '1rem',
-    border: '1px solid white',
-    height: '2rem',
-    background: 'transparent',
-    color: 'white',
-    fontSize: '14px'
-  }),
-  textarea: css({
-    height: '8rem',
-    whiteSpace: 'normal',
-    resize: 'none'
-  })
 }
 
 export default Input
