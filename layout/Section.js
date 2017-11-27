@@ -19,12 +19,12 @@ const Section = ({ children, id }) => (
         align-items: center;
         justify-content: center;
         background: ${v.color.background};
-        :first-child: {
-          background: red;
-        };
-        :last-child: {
-          background: blue;
-        }
+      }
+      .container:first-child: {
+        background: red;
+      };
+      .container:last-child: {
+        background: blue;
       }
       .inner {
         max-width: 30rem;

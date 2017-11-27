@@ -2,9 +2,8 @@
   "name": "bertie",
   "version": "1.0.0",
   "description": "bertiewright.co.uk",
-  "main": "index.js",
   "repository": "github.com/littlemooon/bertie",
-  "author": "fredwright0@gmail.com (littlemooon)",
+  "author": "fredwright0@gmail.com",
   "scripts": {
     "dev": "next -p 4444",
     "build": "next build",
